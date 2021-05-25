@@ -4,10 +4,10 @@ import Dashboard from '../pages/Dashboard/index';
 import Repository from '../pages/Repository/index';
 
 const Routes: React.FC = () => (
-    <Switch>
-        <Route path="/" exact component={Dashboard} />
-        <Route path="/repositories/:repository+" exact component={Repository} />
-    </Switch>
+  <Switch>
+    <Route path="/" exact component={Dashboard} />
+    <Route path="/repositories/:repository+" exact component={Repository} />
+  </Switch>
 );
 
 export default Routes;
