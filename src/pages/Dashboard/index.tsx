@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import api from '../../services/api';
 import { Title, Form, Repositories, Error } from './styles';
 import gitexplorer from '../../assets/gitexplorer.svg';
-import Repository from '../Repository';
+// import Repository from '../Repository';
 
 interface Repository {
   full_name: string;
